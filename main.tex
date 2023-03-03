@@ -1,0 +1,407 @@
+%------------------------
+% Resume Template
+% Author : Mohammad Abdullah Al Mamun
+% Github : https://github.com/Mamunia
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{multibib}
+\usepackage{etoolbox}
+\usepackage{bibentry}
+\usepackage[defernumbers=true]{biblatex}
+
+\addbibresource{articles.bib} 
+\addbibresource{inproceedings.bib}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+%\fancyfoot{} %when no page numbering needed
+%\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-10pt}\scshape\raggedright\large\color{black}
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% Custom commands
+\renewcommand{\labelitemii}{$\circ$}
+
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+\nocite{*}
+
+%----------HEADING-----------------
+
+\begin{center}
+	\textbf{{\LARGE \color{black} Daniel Christian Posmik}}
+\end{center}
+\vspace{2pt}
+
+	\begin{minipage}{.45\linewidth} 
+		\begin{flushleft}
+    			Pronouns: He, Him, His \\ 
+    			Cell: +1-224-507-4045 \\
+    			E-Mail: \href{mailto:posmikdc@uchicago.edu} {posmikdc@uchicago.edu}
+    		\end{flushleft} 
+    	\end{minipage}
+    \hfill 
+    \begin{minipage}{.50\linewidth}
+    		\begin{flushright}
+                        Portfolio: \href{https://posmikdc.github.io/}
+                        {https://posmikdc.github.io} \\
+            	 	LinkedIn: \href{https://www.linkedin.com/in/posmikdc/}           {https://www.linkedin.com/in/posmikdc} \\
+    	 		Google Scholar: \href{https://scholar.google.com/citations?hl=en&user=sRuEm5oAAAAJ}{https://scholar.google.com/posmikdc} 
+    		\end{flushright}
+    	\end{minipage}
+
+\vspace{5pt}
+%\hrulefill
+
+
+%-----------EDUCATION-----------------
+\section{Education}
+    \begin{minipage}{.75\linewidth} \begin{flushleft}
+    		\textbf{University of Cincinnati, Carl H. Lindner College}
+    	\end{flushleft} \end{minipage}
+    \hfill 
+    \begin{minipage}{.20\linewidth}\begin{flushright}
+    	 Cincinnati, OH, USA
+    	\end{flushright}\end{minipage}
+    	
+    	\begin{minipage}{.75\linewidth} \begin{flushleft}
+    		Economics (BBA), Business Analytics (BSc), Mathematics (Minor) GPA: 3.96/4.0\\
+    	\end{flushleft} \end{minipage}
+    \hfill 
+    \begin{minipage}{.20\linewidth}\begin{flushright}
+    	 May 2022
+    	\end{flushright}\end{minipage} 
+	 
+   		\begin{minipage}{.85\linewidth} \begin{flushleft}
+    		Business Administration (Associate of Arts) GPA: 3.80/4.0\\
+    	\end{flushleft} \end{minipage}
+    \hfill 
+    \begin{minipage}{.13\linewidth}\begin{flushright}
+    	 May 2020
+    	\end{flushright}\end{minipage}
+
+%-----------Publications-----------------
+\vspace{0pt}
+
+\printbibliography[title={Publications}, type=article, resetnumbers=true]
+
+%-----------Software & Working Papers-----------------
+\printbibliography[title={Software Packages \& Working Papers}, type=inproceedings, resetnumbers=true]
+
+%-----------Technical Skills-----------------
+\vspace{-5pt}
+\section{Technical Skills \& Relevant Coursework}
+\vspace{5pt}
+     \begin{description}[font=$\bullet$]
+     \vspace{-5pt}
+\item{\textbf{Programming}: R · Git · Julia · Python · \LaTeX · MATLAB · SQL}
+     \vspace{-7pt}
+\item{\textbf{Course Audits}: Real Analysis (Spring '23, Y. Li)}
+     \vspace{-7pt}
+\item{\textbf{Coursework}: Statistics and Machine Learning (A-) · Abstract Math (A) · Econometrics (A) · Statistics and Probability (A) · Mathematical Modeling (A) · Calculus I-III (A, A, A-) · Dynamical Systems (A) · Linear Algebra (A) · Game Theory (A) · Forecasting and Risk (A) · Data Mining (A) · Database Management (A)}
+    \end{description}
+    
+%-----------Research Experience-----------------
+\vspace{0pt}
+\section{Research Experience}
+% Item ================================================================
+% Employer, Location ------------------------
+    \begin{minipage}{.75\linewidth} \begin{flushleft}
+    		\textbf{Becker Friedman Institute for Economics}
+    	\end{flushleft} \end{minipage}
+    \hfill 
+    \begin{minipage}{.20\linewidth}\begin{flushright}
+    	 Chicago, IL, USA
+    	\end{flushright}\end{minipage}
+     
+% Job title, Sub-practice, Time horizon ------------------------
+    \begin{minipage}{.75\linewidth} \begin{flushleft}
+    		Project Associate · Energy \& Environment Lab (Prof. Michael Greenstone)
+    	\end{flushleft} \end{minipage}
+    \hfill 
+    \begin{minipage}{.20\linewidth}\begin{flushright}
+    	 Jan. 2023 - Present
+    	\end{flushright}\end{minipage}
+% Bullet points -------------------------------------------
+        \vspace{-5pt}
+	\begin{description}[font=$\bullet$]
+	\item{Training eight machine learning models to predict the likelihood of factory-level violations against the Clean Air Act}
+        \vspace{-7pt}
+        \item{Conducting lit review to inform an RCT studying the effect of media intervention on environmental compliance}
+        \vspace{-7pt}
+        \item{Building data pipelines for machine learning models by writing APIs (RSelenium) to scrape data ($\approx$ 10TB)} 
+        \vspace{-7pt}
+        \item{Managing data use within the lab and ensuring compliance with privacy/ security protocols as the data steward}
+        \vspace{-7pt}
+        \item{Preparing results for research papers, policy briefs, and presentations targeting policymakers and academic audiences}
+        \vspace{-7pt}
+        \item{Supporting fundraising, reporting, and grant-writing efforts, specifically regarding NSF and EPA grants}
+\end{description}
+
+ % Item ================================================================
+% Employer, Location ------------------------
+    \begin{minipage}{.75\linewidth} \begin{flushleft}
+    		\textbf{The Brattle Group}
+    	\end{flushleft} \end{minipage}
+    \hfill 
+    \begin{minipage}{.20\linewidth}\begin{flushright}
+    	 Boston, MA, USA
+    	\end{flushright}\end{minipage}
+     
+% Job title, Sub-practice, Time horizon ------------------------
+    \begin{minipage}{.75\linewidth} \begin{flushleft}
+    		Research Analyst · Electricity Practice Group
+    	\end{flushleft} \end{minipage}
+    \hfill 
+    \begin{minipage}{.20\linewidth}\begin{flushright}
+    	 July 2022 - Dec. 2022
+    	\end{flushright}\end{minipage}
+% Bullet points -------------------------------------------
+        \vspace{-5pt}
+	\begin{description}[font=$\bullet$]
+	\item{Analyzed energy congestion patterns using k-Means clustering on space- and time-indexed locational marginal prices}
+        \vspace{-7pt}
+        \item{Visualized (QGIS) the energy congestion project, informing a utility's transmission investment ($\approx$ \$10m)}
+        \vspace{-7pt}
+        \item{Conducted cost-benefit analysis for the NJ Board of Public Utilities to evaluate the need for transmission upgrades} 
+        \vspace{-7pt}
+        \item{Developed a cost-benefit model for the electrification of bus fleets considering grants from the Inflation Reduction Act}
+	\end{description}
+
+  % Item ================================================================
+% Employer, Location ------------------------
+    \begin{minipage}{.75\linewidth} \begin{flushleft}
+    		\textbf{Kautz-Uible Economics Institute}
+    	\end{flushleft} \end{minipage}
+    \hfill 
+    \begin{minipage}{.20\linewidth}\begin{flushright}
+    	 Cincinnati, OH, USA
+    	\end{flushright}\end{minipage}
+     
+% Job title, Sub-practice, Time horizon ------------------------
+    \begin{minipage}{.75\linewidth} \begin{flushleft}
+    		Capstone Research · Advised by Prof. Michael Jones
+    	\end{flushleft} \end{minipage}
+    \hfill 
+    \begin{minipage}{.20\linewidth}\begin{flushright}
+    	 Jan. 2021 - Dec. 2021
+    	\end{flushright}\end{minipage}
+% Bullet points -------------------------------------------
+        \vspace{-5pt}
+	\begin{description}[font=$\bullet$]
+	\item{Designed independent research, analyzing the association between financial aid and international student enrollment}
+        \vspace{-7pt}
+        \item{Studied causal research frameworks, i.e. a difference-in-differences design with continuous and time-varying treatment}
+        \vspace{-7pt}
+        \item{Conducted in-depth literature review on panel data econometrics and treatment effect heterogeneity } 
+        \vspace{-7pt}
+        \item{Developed two-way fixed effects and random effects model; found that only substantial aid awards predict enrollment}
+        \vspace{-7pt}
+        \item{Found that financial aid is especially powerful at rural, private, low research activity institutions}
+        \vspace{-7pt}
+        \item{Presented peer-reviewed publication at university-wide capstone competition and the Cleveland Fed’s ESP Conference}
+	\end{description}
+
+ % Item ================================================================
+% Employer, Location ------------------------
+    \begin{minipage}{.75\linewidth} \begin{flushleft}
+    		\textbf{Novomer, Inc.}
+    	\end{flushleft} \end{minipage}
+    \hfill 
+    \begin{minipage}{.20\linewidth}\begin{flushright}
+    	 Rochester, NY, USA
+    	\end{flushright}\end{minipage}
+     
+% Job title, Sub-practice, Time horizon ------------------------
+    \begin{minipage}{.75\linewidth} \begin{flushleft}
+    		Project Lead · Reported to Jeff Uhrig, CEO
+    	\end{flushleft} \end{minipage}
+    \hfill 
+    \begin{minipage}{.20\linewidth}\begin{flushright}
+    	 May 2020 - Aug. 2020
+    	\end{flushright}\end{minipage}
+% Bullet points -------------------------------------------
+        \vspace{-5pt}
+	\begin{description}[font=$\bullet$]
+	\item{Led a qualitative study assessing the waste impact of Novomer’s biodegradable P(3HP) polymer}
+        \vspace{-7pt}
+        \item{Coordinated a small research team of one Ph.D student and one chemical process engineer for three months}
+        \vspace{-7pt}
+        \item{Assisted with life cycle analysis; conducted an analysis of market fit; summarized global impacts of plastic waste} 
+        \vspace{-7pt}
+        \item{Co-authored white paper and communicated findings to an audience of executives; published study through Waste360}
+	\end{description}
+
+%-----------Professional Activities-----------------
+\vspace{0pt}
+\section{Professional Activities}
+% Item ------------------------
+    \begin{minipage}{.75\linewidth} \begin{flushleft}
+        \textbf{Academic Presentations}
+    \end{flushleft} \end{minipage}
+    
+     \begin{description}[font=$\bullet$]
+        \vspace{-7pt}
+	\item{Heterogeneity-robust Spatial Synthetic Controls, \textit{UChicago Spring 2023 Research Staff Workshop}, 2023, Chicago, IL}
+        \vspace{-7pt}
+        \item{\href{https://posmikdc.github.io/pdf/PosmikDaniel_ESPPresentation.pdf}{Predicting International Student Enrollment by Aid}, \textit{Cleveland Fed. Reserve ESP Conference}, 2022, Cleveland, OH}
+        \vspace{-7pt}
+        \item{\href{https://posmikdc.github.io/pdf/Posmik_GuestLecture_ECON4040.pdf}{International Students and the Global Flow of Talent}, \textit{Guest Lecture International Economics}, 2021, Cincinnati, OH}
+        \vspace{-7pt}
+        \item{Lobbying for Carbon Dividends - H.R.763, \textit{International CCL Climate Change Conference}, 2019, Washington D.C.}
+\end{description}
+
+% Item ------------------------
+\vspace{-5pt}
+    \begin{minipage}{.75\linewidth} \begin{flushleft}
+        \textbf{Refereeing}
+    \end{flushleft} \end{minipage}
+    
+     \begin{description}[font=$\bullet$]
+        \vspace{-7pt}
+	\item{Journal of Student Financial Aid (2022): Peer Reviewer}
+         \vspace{-7pt}
+	\item{Cleveland Federal Reserve Economic Scholars Program (2022): Reviewer of Conference Submissions}
+\end{description}
+
+%-----------Awards-----------------
+\vspace{-5pt}
+\section{Awards and Distinctions}
+	\begin{description}[font=$\bullet$]
+		\item{\href{https://www.uc.edu/news/articles/2022/05/uc-president-awards-leadership-medals-to-six-2022-grads.html}{Presidential Leadership Medal of Excellence ('22)}: Highest university-wide leadership award, 4 yearly recipients. }
+		\vspace{-7pt}
+		\item {Economics Student / Non-Traditional Student of the Year ('22): Department honors (Economics), 1 yearly award.}
+		\vspace{-7pt}
+		\item {\href{https://www.uc.edu/campus-life/nca/student-spotlight/profiles/daniel-posmik.html}{Schwarzman Scholarship ('21)}: Finalist, Only 400 out of 3,000+ applicants advance to the final round.}
+		\vspace{-7pt}
+		\item {\href{https://www.uc.edu/campus-life/cce/volunteer/awardsandscholarships.html}{Annie Fitzgerald Award ('21)}: Highest university-wide community service awarded 2 yearly recipients.}
+		\vspace{-7pt}
+		\item {\href{https://www.youtube.com/watch?v=N1KdIjCjeRE}{Heart of William J. Keating Leadership Award ('21)}: Highest leadership award in business school, 1 yearly recipient.}
+		
+\end{description}
+
+%-----------Talks and Media Appearances-----------------
+\vspace{-5pt}
+\section{Talks and Media Appearances}
+	\begin{description}[font=$\bullet$]
+		\item{\href{https://youtu.be/cTDl1OwIEnA}{Podcast Episode on Neo's Legacy ('23)}: \textit{In the Know with Neo} Podcast.}
+		\vspace{-7pt}
+	\item {\href{https://www.bizjournals.com/cincinnati/inno/stories/news/2021/09/16/uc-student-founded-program-helps-companies-find.html}{Neo Cincy helps Companies find Talent ('22)}: Newspaper report in \textit{The Business Journals}.}
+ \vspace{-7pt}
+	\item {\href{https://www.ted.com/talks/daniel_posmik_telling_stories_with_data}{Telling Stories with Data ('21)}: TEDx Talk.}
+		\vspace{-7pt}
+	\item {\href{https://youtu.be/F1mG_0bLIBo}{UC Students helping Local Business unlock more Money ('21)}: News story aired on \textit{WCPO-9}.}
+		
+\end{description}
+
+%-----------Leadership Experience-----------------
+\vspace{-5pt}
+\section{Leadership Experience}
+% Item ================================================================
+% Employer, Location ------------------------
+    \begin{minipage}{.75\linewidth} \begin{flushleft}
+    		\textbf{Neo Initiative}
+    	\end{flushleft} \end{minipage}
+    \hfill 
+    \begin{minipage}{.20\linewidth}\begin{flushright}
+    	 Cincinnati, OH, USA
+    	\end{flushright}\end{minipage}
+     
+% Job title, Sub-practice, Time horizon ------------------------
+    \begin{minipage}{.75\linewidth} \begin{flushleft}
+    		Founder and President · Faculty Advisor Dr. Prince Ellis
+    	\end{flushleft} \end{minipage}
+    \hfill 
+    \begin{minipage}{.20\linewidth}\begin{flushright}
+    	 June 2020 - Jan. 2022
+    	\end{flushright}\end{minipage}
+% Bullet points -------------------------------------------
+        \vspace{-5pt}
+	\begin{description}[font=$\bullet$]
+	\item{Created the first student-led, pro-bono analytics accelerator for minority-owned small businesses in the U.S.}
+        \vspace{-7pt}
+        \item{Coordinated a team of 6 exec officers, 5 project leads, 5 mentors, and 30 analysts on up to five semesterly projects}
+        \vspace{-7pt}
+        \item{Served a total of 15 black-owned small businesses, developing three practice areas (business intelligence, business analytics, systems implementation) while overseeing 2,480 community service hours in the 2020/2021 school year}
+        \vspace{-7pt}
+        \item{Created an academy centered around systems implementation in partnership with MORTAR Cincinnati }
+        \vspace{-7pt}
+        \item{Fostered industry partnerships with AMEND Consulting, LLC and 84.51, starting a mentorship program}
+        \vspace{-7pt}
+        \item{Reached 300+ minority-identifying small businesses through a state-sponsored (MBAC) \textit{data literacy} series}
+        \vspace{-7pt}
+        \item{Built partnership with the Ohio Department of Development (ODD) around statewide expansion plans and tapped state funding through the ‘Ohio Third Frontier’ program; enabling Neo to compensate four students up to \$7,500}
+\end{description}
+
+% Item ================================================================
+% Employer, Location ------------------------
+    \begin{minipage}{.75\linewidth} \begin{flushleft}
+    		\textbf{UC Blue Ash Sustainability}
+    	\end{flushleft} \end{minipage}
+    \hfill 
+    \begin{minipage}{.20\linewidth}\begin{flushright}
+    	 Blue Ash, OH, USA
+    	\end{flushright}\end{minipage}
+     
+% Job title, Sub-practice, Time horizon ------------------------
+    \begin{minipage}{.75\linewidth} \begin{flushleft}
+    		Co-Founder and Co-President · Faculty Advisor Dr. Mike Roman
+    	\end{flushleft} \end{minipage}
+    \hfill 
+    \begin{minipage}{.20\linewidth}\begin{flushright}
+    	 Aug. 2019 - July 2020
+    	\end{flushright}\end{minipage}
+% Bullet points -------------------------------------------
+        \vspace{-5pt}
+	\begin{description}[font=$\bullet$]
+	\item{Hosted the UC Blue Ash Sustainability Summit which was attended by city of Cincinnati’s director of sustainability}
+        \vspace{-7pt}
+        \item{Served as a campus liaison with the Citizens Climate Lobby (CCL) and participated in the 2019 International Climate Conference in Washington DC, lobbying for the Energy Innovation and Carbon Dividend Act (H.R. 763)}
+        \vspace{-7pt}
+        \item{Pitched H.R. 763 to congresswoman Joyce Beatty (D-OH) who cosponsored the bill in December 2020}
+\end{description}
+
+%-----------Languages and Interests-----------------
+\vspace{-5pt}
+\section{Languages \& Interests}
+\vspace{5pt}
+\begin{description}[font=$\bullet$]
+\vspace{-5pt}
+\item{\textbf{Language}: German (Native) · English (Fluent) · French (Advanced) · Latin (Intermediate) · Spanish (Basic)}
+\vspace{-7pt}
+\item{\textbf{Interests}: Rock/ Ice Climbing · Mountaineering · Hiking · Cooking · Meditation · Dogs} 
+\end{description}
+
+\end{document}
